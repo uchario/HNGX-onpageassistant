@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container {
+    position: relative;
+    height: 90vh;
+}
+
+button {
+    padding: 1rem;
+    border: solid 0.1rem #e7e7e7;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#button-2 {
+    position: absolute;
+    top: 30rem;
+}
+
+#button-3 {
+    position: absolute;
+    right: 0;
+}
+
+#button-4 {
+    position: absolute;
+    top: 20rem;
+    right: 20rem;
+}
+
+#button-5 {
+    position: absolute;
+    left: 60rem;
+    top: 40rem;
+}
+
+#button-6 {
+    position: absolute;
+    left: 50rem;
+}
+
+
+#assistant {
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+}
